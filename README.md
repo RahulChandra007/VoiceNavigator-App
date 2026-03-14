@@ -15,11 +15,12 @@ VoiceNavigator is a privacy-focused utility that lets you control document and a
 * **OS:** macOS 12.0 or later.
 * **Hardware:** Apple Silicon (M-Series chips) recommended for best performance.
 
-## 🚦 Quick Start
-1.  **Download** the `.zip` from the link above.
-2.  **Move** `VoiceNavigator.app` to your Applications folder.
-3.  **Right-Click** and select **Open** (required for the first launch).
-4.  **Grant Permissions:** Allow Microphone and Accessibility when prompted.
+## ⚙️ Installation
+1. **Download & Unzip:** Get the `VoiceNavigator.zip` from the release link above.
+2. **Move to Applications:** Drag the app into your `/Applications` folder.
+3. **Security Bypass:** Open **Terminal** and run:
+   ```bash
+   xattr -cr /Applications/VoiceNavigator.app
 
 ---
 

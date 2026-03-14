@@ -3,11 +3,9 @@
 
 VoiceNavigator is a privacy-focused utility that lets you control document and application navigation using simple voice commands. Optimized for Apple Silicon (M4/M3/M2/M1).
 
-[🚀 DOWNLOAD LATEST VERSION (v1.0.1)](https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest)
-
+👉 **[🚀 DOWNLOAD LATEST VERSION (v1.0.2)](https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest)**
 ---
 
-## ✨ Key Features
 * **100% Offline:** No data ever leaves your Mac. Speech processing happens locally using the Vosk engine.
 * **Natural Commands:** Multiple keywords for every action (e.g., "first", "top", "beginning").
 * **Ultra-Lightweight:** Designed specifically for macOS architecture to ensure minimal CPU impact.

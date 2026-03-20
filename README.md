@@ -1,7 +1,7 @@
 # 🎙️ VoiceNavigator
 ### **Offline Voice-Controlled Navigation for macOS**
 
-VoiceNavigator is a privacy-focused utility that lets you control document and application navigation using simple voice commands. 
+VoiceNavigator is a privacy-focused, handsfree utility that lets you control document and application navigation using simple voice commands. 
 
 ## 📥 Download
 👉 **[Latest Release for macOS & Windows](https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest)**

@@ -18,11 +18,11 @@ VoiceNavigator is a privacy-focused, handsfree utility that lets you control doc
 
 * **100% Offline:** No data ever leaves your Mac. Speech processing happens locally using the Vosk engine.
 * **Natural Commands:** Multiple keywords for every action 
-1. Next Page           - "next" "first", "top", "beginning"
-2. Previous Page       - "previous, "back", "return", "reverse"
+1. NEXT                - "next" "first", "top", "beginning"
+2. PREVIOUS            - "previous, "back", "return", "reverse"
 3. RESTART             - "restart", "start", "beginning", "first", "reset"
 4. LAST                - "last", "end", "bottom", "final", "finish"
-5. Go to Page #
+5. GO TO PAGE #
 
 * **Ultra-Lightweight:** Designed specifically for macOS/windows architecture to ensure minimal CPU impact.
 * **Privacy First:** No cloud APIs, no tracking, and no internet required.

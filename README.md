@@ -17,7 +17,13 @@ VoiceNavigator is a privacy-focused utility that lets you control document and a
 3. Run `xattr -cr /Applications/VoiceNavigator.app` in Terminal.
 
 * **100% Offline:** No data ever leaves your Mac. Speech processing happens locally using the Vosk engine.
-* **Natural Commands:** Multiple keywords for every action (e.g., "first", "top", "beginning").
+* **Natural Commands:** Multiple keywords for every action 
+1. Next Page           - "next" "first", "top", "beginning"
+2. Previous Page       - "previous, "back", "return", "reverse"
+3. RESTART             - "restart", "start", "beginning", "first", "reset"
+4. LAST                - "last", "end", "bottom", "final", "finish"
+5. Go to Page #
+
 * **Ultra-Lightweight:** Designed specifically for macOS architecture to ensure minimal CPU impact.
 * **Privacy First:** No cloud APIs, no tracking, and no internet required.
 

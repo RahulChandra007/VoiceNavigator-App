@@ -24,7 +24,7 @@ VoiceNavigator is a privacy-focused utility that lets you control document and a
 4. LAST                - "last", "end", "bottom", "final", "finish"
 5. Go to Page #
 
-* **Ultra-Lightweight:** Designed specifically for macOS architecture to ensure minimal CPU impact.
+* **Ultra-Lightweight:** Designed specifically for macOS/windows architecture to ensure minimal CPU impact.
 * **Privacy First:** No cloud APIs, no tracking, and no internet required.
 
 ---

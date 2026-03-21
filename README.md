@@ -28,5 +28,6 @@ VoiceNavigator is a privacy-focused, handsfree utility that lets you control doc
 * **Privacy First:** No cloud APIs, no tracking, and no internet required.
 
 ---
+DM me for source code
 
 *Developed by Rahul Chandra. For support or feedback, please check the User Guide included in the release.*

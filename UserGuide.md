@@ -28,7 +28,6 @@ The application uses a **Dual-State** logic. The current state is indicated by a
 | :--- | :--- | :--- | :--- |
 | **Pause/Resume** | `Fn + F10` | `F10` | Toggle Listening (Green) / Mute (Red) |
 | **Settings** | `Fn + F9` | `F9` | Open Configuration Overlay |
-| **Emergency Stop** | `Ctrl + C` | `Ctrl + C` | Force Quit the application in Terminal |
 
 ---
 

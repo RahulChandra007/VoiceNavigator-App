@@ -12,9 +12,12 @@ VoiceNavigator is a privacy-focused, handsfree utility that lets you control doc
 3. If a "Windows Protected your PC" popup appears, click **More Info** -> **Run Anyway**.
 
 ### 🍎 macOS Installation
-1. Download the macOS `.zip`.
+1. Download the macOS `.dmg`.
 2. Move to `/Applications`.
-3. Run `xattr -cr /Applications/VoiceNavigator.app` in Terminal.
+3. Go to settings & perform following checks before starting
+   a.Privacy & Settings-> Input monitoring, click (+) add the app(if not already there)
+   b.Privacy & Settings-> Accessibility, click (+) add the app (if not already there)
+   c.Privacy & Settings-> Microphone - app should appear here
 
 * **100% Offline:** No data ever leaves your computer. Speech processing happens locally using the Vosk engine.
 * **Natural Commands:** Multiple keywords for every action 

@@ -10,6 +10,21 @@
 
 ---
 
+## 🌟 Key Highlights (v2.0.0)
+
+### 1. 🛡️ Noise Shield
+**Auto-calibration of sensitivity.** No more manual tuning. The app intelligently listens to your environment and filters out background noise, ensuring it only responds to your commands—whether in a quiet office or a busy hall.
+
+### 2. 🛑 Presenter’s Kill-Switch
+**Voice-activated Pause/Resume.** Take total control of the floor. Instantly "lock" your document while speaking to your audience to prevent accidental triggers. Resume only when you're ready to move.
+* *Supports: Voice Command, Submenu Click, or `[Fn+]F10`.*
+
+### 3. 🚦 Traffic-Light Confidence
+**Visual Status Halo.** Stop wondering if the app is listening. A **Green** icon border means you're live; **Red** means you’re private. This peripheral feedback lets you keep your eyes on your audience, not the taskbar.
+
+---
+
+
 ## 🚀 Installation & Setup
 
 ### 🍎 macOS Installation

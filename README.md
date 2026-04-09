@@ -1,36 +1,56 @@
-# 🎙️ VoiceNavigator
-### **Offline Voice-Controlled Navigation for macOS**
+🎙️ VoiceNavigator
+Offline Voice-Controlled Navigation for macOS & Windows
+VoiceNavigator is a privacy-focused, hands-free utility designed for professionals, researchers, and accessibility-conscious users. It allows you to control document and application navigation using intuitive voice commands, eliminating the need for repetitive manual scrolling.
 
-VoiceNavigator is a privacy-focused, handsfree utility that lets you control document and application navigation using simple voice commands. 
+📥 Download
+👉 Latest Release (v2.0.0)
 
-## 📥 Download
-👉 **[Latest Release for macOS & Windows](https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest)**
+🚀 Installation & Setup
+🍎 macOS Installation
+Download the macOS .dmg.
 
-### 🪟 Windows Installation
-1. Download the Windows `.zip` from the link above.
-2. Extract the folder and run `VoiceNavigator.exe`.
-3. If a "Windows Protected your PC" popup appears, click **More Info** -> **Run Anyway**.
+Open the disk image and drag VoiceNavigator to your /Applications folder.
 
-### 🍎 macOS Installation
-1. Download the macOS `.dmg`.
-2. Move to `/Applications`.
-3. Go to settings & perform following checks before starting
-   a.Privacy & Settings-> Input monitoring, click (+) add the app(if not already there)
-   b.Privacy & Settings-> Accessibility, click (+) add the app (if not already there)
-   c.Privacy & Settings-> Microphone - app should appear here
+Critical Permissions: To allow voice control over other apps, you must grant these permissions in System Settings > Privacy & Security:
 
-* **100% Offline:** No data ever leaves your computer. Speech processing happens locally using the Vosk engine.
-* **Natural Commands:** Multiple keywords for every action 
-1. NEXT                - "next" "first", "top", "beginning"
-2. PREVIOUS            - "previous, "back", "return", "reverse"
-3. RESTART             - "restart", "start", "beginning", "first", "reset"
-4. LAST                - "last", "end", "bottom", "final", "finish"
-5. GO TO PAGE #
+Accessibility: Click (+) and add VoiceNavigator.
 
-* **Ultra-Lightweight:** Designed specifically for macOS/windows architecture to ensure minimal CPU impact.
-* **Privacy First:** No cloud APIs, no tracking, and no internet required.
+Input Monitoring: Click (+) and add VoiceNavigator.
 
----
-DM me for source code
+Microphone: Ensure the toggle for VoiceNavigator is ON.
 
-*Developed by Rahul Chandra. For support or feedback, please check the User Guide included in the release.*
+🪟 Windows Installation
+Download the Windows .zip.
+
+Extract the folder to your preferred location.
+
+Run VoiceNavigator.exe.
+
+Note: If a "Windows Protected your PC" popup appears, click More Info → Run Anyway.
+
+🛠 Features
+🔒 100% Offline: No data ever leaves your computer. Speech processing is handled locally via the Vosk engine.
+
+🏥 RSI Friendly: Reduces repetitive strain by shifting navigation tasks from your hands to your voice.
+
+🪶 Ultra-Lightweight: Optimized for Apple Silicon (M1/M2/M3/M4) and modern Windows architecture for minimal CPU impact.
+
+🛡️ Privacy First: No Cloud APIs, no tracking, and no internet connection required.
+
+🗣 Commands
+The engine recognizes multiple natural keywords for each action:
+
+Action	Commands
+Next	"Next", "Forward", "Advance"
+Previous	"Previous", "Back", "Return", "Reverse"
+Restart	"Restart", "Start", "Beginning", "First", "Reset"
+Last	"Last", "End", "Bottom", "Final", "Finish"
+Specific Page	"Go to page [Number]"
+🤝 Support & Licensing
+VoiceNavigator is developed by Rahul Chandra.
+
+Corporate Deals: For site licenses or enterprise deployment, please reach out via LinkedIn.
+
+Source Code: DM for inquiries regarding source code access.
+
+Feedback: Please check the User Guide included in the release for detailed troubleshooting.

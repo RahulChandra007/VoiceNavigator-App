@@ -1,56 +1,55 @@
-🎙️ VoiceNavigator
-Offline Voice-Controlled Navigation for macOS & Windows
-VoiceNavigator is a privacy-focused, hands-free utility designed for professionals, researchers, and accessibility-conscious users. It allows you to control document and application navigation using intuitive voice commands, eliminating the need for repetitive manual scrolling.
+# 🎙️ VoiceNavigator
+### **Offline Voice-Controlled Navigation for macOS & Windows**
 
-📥 Download
-👉 Latest Release (v2.0.0)
+**VoiceNavigator** is a privacy-focused, hands-free utility that lets you control document and application navigation using simple voice commands. Designed for professionals, researchers, and users seeking to reduce physical strain.
 
-🚀 Installation & Setup
-🍎 macOS Installation
-Download the macOS .dmg.
+---
 
-Open the disk image and drag VoiceNavigator to your /Applications folder.
+## 📥 Download
+👉 **[Latest Release for macOS & Windows](https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest)**
 
-Critical Permissions: To allow voice control over other apps, you must grant these permissions in System Settings > Privacy & Security:
+---
 
-Accessibility: Click (+) and add VoiceNavigator.
+## 🚀 Installation & Setup
 
-Input Monitoring: Click (+) and add VoiceNavigator.
+### 🍎 macOS Installation
+1. Download the **macOS `.dmg`**.
+2. Move the app to your `/Applications` folder.
+3. Before starting, ensure the following permissions are granted in **System Settings > Privacy & Security**:
+   - **Accessibility**: Click `(+)` and add VoiceNavigator.
+   - **Input Monitoring**: Click `(+)` and add VoiceNavigator.
+   - **Microphone**: Ensure VoiceNavigator is toggled **ON**.
 
-Microphone: Ensure the toggle for VoiceNavigator is ON.
+### 🪟 Windows Installation
+1. Download the **Windows `.zip`**.
+2. Extract the folder and run `VoiceNavigator.exe`.
+3. If a "Windows Protected your PC" popup appears, click **More Info** -> **Run Anyway**.
 
-🪟 Windows Installation
-Download the Windows .zip.
+---
 
-Extract the folder to your preferred location.
+## ✨ Key Features
+* **🔒 100% Offline:** No data ever leaves your computer. Speech processing happens locally using the **Vosk** engine.
+* **🗣️ Natural Commands:** Supports multiple keywords for every action to match your natural speech.
+* **🪶 Ultra-Lightweight:** Designed specifically for modern architectures to ensure minimal CPU impact.
+* **🛡️ Privacy First:** No cloud APIs, no tracking, and no internet required.
 
-Run VoiceNavigator.exe.
+---
 
-Note: If a "Windows Protected your PC" popup appears, click More Info → Run Anyway.
+## 🎙️ Command Reference
 
-🛠 Features
-🔒 100% Offline: No data ever leaves your computer. Speech processing is handled locally via the Vosk engine.
+| Action | Recognized Voice Keywords |
+| :--- | :--- |
+| **Next** | "next", "forward", "advance" |
+| **Previous** | "previous", "back", "return", "reverse" |
+| **Restart** | "restart", "start", "beginning", "first", "reset" |
+| **Last** | "last", "end", "bottom", "final", "finish" |
+| **Jump** | "go to page [number]" |
 
-🏥 RSI Friendly: Reduces repetitive strain by shifting navigation tasks from your hands to your voice.
+---
 
-🪶 Ultra-Lightweight: Optimized for Apple Silicon (M1/M2/M3/M4) and modern Windows architecture for minimal CPU impact.
+## 🤝 Support & Feedback
+*Developed by **Rahul Chandra**.*
 
-🛡️ Privacy First: No Cloud APIs, no tracking, and no internet connection required.
-
-🗣 Commands
-The engine recognizes multiple natural keywords for each action:
-
-Action	Commands
-Next	"Next", "Forward", "Advance"
-Previous	"Previous", "Back", "Return", "Reverse"
-Restart	"Restart", "Start", "Beginning", "First", "Reset"
-Last	"Last", "End", "Bottom", "Final", "Finish"
-Specific Page	"Go to page [Number]"
-🤝 Support & Licensing
-VoiceNavigator is developed by Rahul Chandra.
-
-Corporate Deals: For site licenses or enterprise deployment, please reach out via LinkedIn.
-
-Source Code: DM for inquiries regarding source code access.
-
-Feedback: Please check the User Guide included in the release for detailed troubleshooting.
+* **Corporate Deals:** licenses or enterprise deployment, please reach out via LinkedIn/voicenavigator7@gmail.com.
+* **Source Code:** DM regarding the source code.
+* **Feedback:** For support or feature requests, please check the User Guide included in the release.

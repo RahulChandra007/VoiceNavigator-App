@@ -59,6 +59,8 @@
 | **Restart** | "restart", "start", "beginning", "first", "reset" |
 | **Last** | "last", "end", "bottom", "final", "finish" |
 | **Jump** | "go to page [number]" |
+| **Pause Liestening** | "Voice Engine Stops listening" |
+| **Resume Liestening** | "Voice Engine Starts listening again" |
 
 ---
 

@@ -9,16 +9,18 @@
 </head>
 <body>
 
-    <header>
+    <header class="main-header">
         <div class="container nav-container">
             <div class="logo-zone">
                 <div class="logo-icon">VN</div>
                 <span class="brand-name">VoiceNavigator</span>
             </div>
-            <nav>
+            <nav class="top-menu">
+                <a href="#about">About</a>
                 <a href="#features">Features</a>
+                <a href="#demo">Demo</a>
                 <a href="#security">Security</a>
-                <a href="#download" class="btn btn-secondary">Download</a>
+                <a href="#" class="btn btn-secondary nav-download-dynamic">Download</a>
             </nav>
         </div>
     </header>
@@ -28,16 +30,26 @@
             <h1>Navigate Your Desktop at the Speed of Speech.</h1>
             <p class="subtitle">An offline, privacy-first voice assistant designed to give presenters, executives, and educators seamless, hands-free control over their screens.</p>
             <div class="hero-cta">
-                <a href="#download" class="btn btn-primary">Get VoiceNavigator</a>
-                <a href="#features" class="btn btn-outline">See How It Works</a>
+                <a href="#" class="btn btn-primary hero-download-dynamic">Get VoiceNavigator</a>
+                <a href="#demo" class="btn btn-outline">Watch Demo</a>
             </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container text-block-center">
+            <span class="badge">Our Mission</span>
+            <h2>Redefining Desktop Interaction</h2>
+            <p class="lead-text">
+                At VoiceNavigator, we are transforming how professionals present and teach by enabling complete, hands-free desktop control through local voice commands. Designed specifically for active workflows—like advancing PowerPoint slides, scrolling through long PDFs, or navigating Word documents mid-lecture—our assistant allows speakers to engage their audience completely unanchored from a keyboard or hardware clicker.
+            </p>
         </div>
     </section>
 
     <section id="features" class="features">
         <div class="container">
             <h2 class="section-title">Built for Dynamic Presenters</h2>
-            <p class="section-subtitle">Never be anchored to a keyboard or clicker again. Command your software naturally during high-stakes meetings or classroom lectures.</p>
+            <p class="section-subtitle">Never be anchored to a laptop. Command your software naturally during high-stakes meetings or classroom lectures.</p>
             
             <div class="grid">
                 <div class="card">
@@ -59,27 +71,21 @@
         </div>
     </section>
 
-<section id="demo" class="video-demo" style="padding: 5rem 0; text-align: center; background-color: #ffffff;">
+    <section id="demo" class="video-demo">
         <div class="container">
-            <h2 style="margin-bottom: 0.5rem;">See VoiceNavigator in Action</h2>
-            <p style="color: #64748b; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                Watch how effortlessly you can drive presentation slides and documents purely with voice commands.
-            </p>
-            
-            <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 800px; margin: 0 auto; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);">
+            <h2>See VoiceNavigator in Action</h2>
+            <p class="section-subtitle">Watch how effortlessly you can drive presentation slides and documents purely with voice commands.</p>
+            <div class="video-wrapper">
                 <iframe 
-                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
                     src="https://www.youtube.com/embed/EFlMBppJPSQ" 
                     title="VoiceNavigator Product Demo"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     allowfullscreen>
-                 iframe>
+                </iframe>
             </div>
         </div>
     </section>
 
-
-    
     <section id="security" class="security-zone">
         <div class="container security-container">
             <div class="security-text">
@@ -88,7 +94,7 @@
                 <p>We believe productivity shouldn't compromise device safety. VoiceNavigator is engineered to work in perfect harmony with native operating system guardrails.</p>
                 <ul>
                     <li><strong>100% Offline Engine:</strong> Speech processing happens entirely on your local machine—no data ever leaves your device.</li>
-                    <li><strong>macOS Hardened Runtime:</strong> Designed from day one to cleanly align with modern operating system validation rules.</li>
+                    <li><strong>Hardened Runtime Compliance:</strong> Engineered to cleanly align with modern operating system validation frameworks without triggering security alerts.</li>
                     <li><strong>Transparent Permissions:</strong> Seamlessly requests and respects system privacy protocols (TCC) to protect your workspace integrity.</li>
                 </ul>
             </div>
@@ -101,24 +107,10 @@
         </div>
     </section>
 
-<section id="download" class="cta-download">
-        <div class="container">
-            <h2>Ready to transform your presentations?</h2>
-            <p>Download the latest release of VoiceNavigator and experience true hands-free automation control.</p>
-            
-            <div class="download-buttons-container">
-                <a href="https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest" id="downloadMac" class="btn btn-primary btn-large">Download for macOS (.dmg)</a>
-                <a href="https://github.com/RahulChandra007/VoiceNavigator-App/releases/latest" id="downloadWin" class="btn btn-outline btn-large" style="color: white; border-color: white;">Download for Windows (.exe)</a>
-            </div>
-            
-            <p class="meta-text">Current version: v2.0.5 | Free & Open Source</p>
-        </div>
-    </section>
-
     <footer>
         <div class="container footer-container">
             <p>&copy; 2026 VoiceNavigator. All rights reserved.</p>
-            <p>Proudly self-employed in Bengaluru, India.</p>
+            <p>Proudly engineered in Bengaluru, India.</p>
         </div>
     </footer>
 

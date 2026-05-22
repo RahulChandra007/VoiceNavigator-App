@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Key Highlights (v2.0.0)
+## 🌟 Key Highlights
 
 ### 1. 🛡️ Noise Shield
 **Auto-calibration of sensitivity.** No more manual tuning. The app intelligently listens to your environment and filters out background noise, ensuring it only responds to your commands—whether in a quiet office or a busy hall.

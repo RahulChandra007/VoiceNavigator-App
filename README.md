@@ -54,11 +54,11 @@
 
 | Action | Recognized Voice Keywords |
 | :--- | :--- |
-| **Next** | "next", "forward", "advance" |
+| **Next** | "next", "advance" |
 | **Previous** | "previous", "back", "return", "reverse" |
 | **Restart** | "restart", "start", "beginning", "first", "reset" |
-| **Last** | "last", "end", "bottom", "final", "finish" |
-| **Jump** | "go to page [number]" |
+| **Last** | "last", "final", "finish" |
+<!--| **Jump** | "go to page [number]" | -->
 | **Pause Listening** | "Voice Engine Stops listening" |
 | **Resume Listening** | "Voice Engine Starts listening again" |
 

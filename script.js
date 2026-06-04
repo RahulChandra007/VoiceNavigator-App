@@ -35,3 +35,38 @@ document.addEventListener('DOMContentLoaded', () => {
             // Fallback: If the API fails or hits a rate limit, the buttons safely 
             // point to your general /releases/latest page we set in the HTML.
         });
+// Marketplace Token Extraction & Deep Linking Logic
+function handleMarketplaceToken() {
+    const tokenBox = document.getElementById("tokenBox");
+    const launchLink = document.getElementById("appLaunchLink");
+
+    if (!tokenBox || !launchLink) return; // Only execute if on the activation page
+
+    // Parse the query parameters out of the URL bar
+    const urlParams = new URLSearchParams(window.location.search);
+    const marketplaceToken = urlParams.get('x-ms-marketplace-token');
+
+    if (marketplaceToken) {
+        // 1. Display the token inside the container UI
+        tokenBox.innerText = marketplaceToken;
+        tokenBox.style.color = "#333";
+
+        // 2. Format the custom URI scheme link to hand the token to the local app
+        // When clicked, Windows/macOS will send this parameter directly to the desktop execution environment.
+        launchLink.href = `voicenavigator://activate?token=${encodeURIComponent(marketplaceToken)}`;
+    } else {
+        // Fallback display if someone accesses the page without coming directly from an active Microsoft checkout
+        document.getElementById("tokenDisplaySection").style.display = "none";
+        tokenBox.innerText = "No token found.";
+        
+        const card = document.querySelector(".activation-card");
+        if (card) {
+            card.innerHTML = `
+                <h3 style="color: #d83b01;">Activation Token Missing</h3>
+                <p>We couldn't detect a valid deployment token. Please launch this configuration window directly from your Microsoft Marketplace Subscriptions dashboard.</p>
+                <br>
+                <a href="index.html" style="color: #0078d4; text-decoration: none;">Return to Home</a>
+            `;
+        }
+    }
+}

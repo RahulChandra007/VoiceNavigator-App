@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Fallback: If the API fails or hits a rate limit, the buttons safely 
             // point to your general /releases/latest page we set in the HTML.
         });
+}); // <--- FIX: This closes the DOMContentLoaded event properly!
+
 // Marketplace Token Extraction & Deep Linking Logic
 function handleMarketplaceToken() {
     const tokenBox = document.getElementById("tokenBox");
@@ -56,7 +58,9 @@ function handleMarketplaceToken() {
         launchLink.href = `voicenavigator://activate?token=${encodeURIComponent(marketplaceToken)}`;
     } else {
         // Fallback display if someone accesses the page without coming directly from an active Microsoft checkout
-        document.getElementById("tokenDisplaySection").style.display = "none";
+        const tokenSection = document.getElementById("tokenDisplaySection");
+        if (tokenSection) tokenSection.style.display = "none";
+        
         tokenBox.innerText = "No token found.";
         
         const card = document.querySelector(".activation-card");

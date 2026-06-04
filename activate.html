@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Activate VoiceNavigator</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #f4f4f9; }
-        .card { background: white; padding: 30px; display: inline-block; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .btn { display: inline-block; padding: 12px 24px; background: #0078d4; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 20px; }
+        /* Minimal layout overrides to center the card on the screen */
+        .activation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            padding: 20px;
+        }
+        .activation-card {
+            background: #ffffff;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .token-box {
+            background: #f4f4f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            word-break: break-all;
+            font-family: monospace;
+            font-size: 14px;
+            margin: 20px 0;
+            max-height: 100px;
+            overflow-y: auto;
+        }
+        .action-button {
+            display: inline-block;
+            background-color: #0078d4;
+            color: #fff;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+        .action-button:hover {
+            background-color: #005a9e;
+        }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h2>Thank you for purchasing VoiceNavigator!</h2>
-        <p>Click below to launch your desktop application and automatically generate your <strong>license.txt</strong> file.</p>
-        
-        <!-- This button triggers a local deep link back to your app -->
-        <a id="activationLink" href="#" class="btn">Launch App to Activate</a>
+
+    <div class="activation-container">
+        <div class="activation-card">
+            <h2>Thank you for choosing VoiceNavigator!</h2>
+            <p>Your enterprise license purchase has been initialized by Microsoft.</p>
+            
+            <div id="tokenDisplaySection">
+                <p style="text-align: left; font-size: 14px; color: #555; margin-bottom: 5px;">Your Activation Token:</p>
+                <div class="token-box" id="tokenBox">Extracting token...</div>
+            </div>
+
+            <p style="font-size: 15px; margin-bottom: 25px;">Click below to launch your desktop application. VoiceNavigator will automatically ingest this token, verify your subscription, and drop the <code>license.txt</code> file directly into your application directory.</p>
+            
+            <a id="appLaunchLink" href="#" class="action-button">Launch VoiceNavigator to Activate</a>
+        </div>
     </div>
 
+    <!-- Link your existing global script or a specialized one -->
+    <script src="script.js"></script>
     <script>
-        // Extract the token parameter from the URL query string
-        const urlParams = new URLSearchParams(window.location.search);
-        const token = urlParams.get('x-ms-marketplace-token');
-
-        if (token) {
-            // Pass the token seamlessly into your desktop app via a custom protocol
-            document.getElementById('activationLink').href = `voicenavigator://activate?token=${token}`;
-        } else {
-            document.body.innerHTML = "<h3>Error: No activation token found. Please access this page directly from your Microsoft billing console.</h3>";
-        }
+        // Execute token parsing immediately when this specific page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof handleMarketplaceToken === "function") {
+                handleMarketplaceToken();
+            }
+        });
     </script>
 </body>
 </html>

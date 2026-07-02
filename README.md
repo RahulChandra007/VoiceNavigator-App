@@ -58,6 +58,8 @@
 | **Previous** | "previous", "back", "return", "reverse" |
 | **Restart** | "restart", "start", "beginning", "first", "reset" |
 | **Last** | "last", "final", "finish" |
+|**Next(n)**| moves n slides forward |
+|**Back(n)**| moves n slides backward |
 <!--| **Jump** | "go to page [number]" | -->
 | **Pause Listening** | "Voice Engine Stops listening" |
 | **Resume Listening** | "Voice Engine Starts listening again" |
